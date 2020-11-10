@@ -8,18 +8,13 @@ public class App {
         d.give(10);
         d.askCoffee();
         d.refund();
-        d.refund();
-
         d.give(50);
         d.askCoffee();
         d.askTea();
+        d.refund();
         d.give(10);
         d.askTea();
-        d.give(10);
-        d.give(10);
-        d.give(10);
-        d.askTea();
-        d.askCoffee();
+
     }
 
 }

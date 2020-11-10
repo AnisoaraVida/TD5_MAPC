@@ -21,15 +21,12 @@ public class Distributeur {
     public void update(){
         this.c = c - 10;
         if(c < 0 ) {c = 0;}
-        System.out.format("c = %d \n", c);
+        System.out.format("apres l'achat la caisse : %d \n", c);
     }
 
     public void refund(){
-        this.c = c - 10;
-        if(give(int n > 10){}
-        if(c < 0 ) {c = 0;}
-        System.out.format("c = %d \n", c);
         this.c = 0;
+        System.out.format("refund c = %d \n", c);
     }
 
     public int caisse(){
